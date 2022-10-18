@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --main-color: #daa520;
   --black: #13131a;
@@ -37,7 +37,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: var(--bg);
 }
 
@@ -49,8 +49,8 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: #ccc !important;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #ccc !important;
 }
 
 #myBtn {
@@ -278,7 +278,7 @@ input:-webkit-autofill:active {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(/Images/here.jpg) no-repeat;
+  background: url(/assets/here.jpg) no-repeat;
   background-blend-mode: darker;
   background-size: cover;
   background-position: center;
@@ -357,10 +357,10 @@ input:-webkit-autofill:active {
 
 .img-one-boxes .box i {
   margin-bottom: 1rem;
-display: block;
-text-align: center;
-font-size: 4rem;
-color: #daa520;
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+  color: #daa520;
 }
 
 .img-one-boxes .box:hover {
@@ -380,7 +380,7 @@ color: #daa520;
 }
 
 .img-one-text {
-text-align: center;
+  text-align: center;
 }
 
 .img-one .img-one-text p {
@@ -465,27 +465,27 @@ text-align: center;
 }
 
 .section-dark-link {
-    margin-top: 2rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 15%;
-    padding: 0.9rem 3rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    background: var(--main-color);
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  .section-dark-link a {
-    color: #010103;
-  }
-  
-  .section-dark-link:hover {
-    letter-spacing: 0.1rem;
-    background: hsla(43, 74%, 49%, 0.807);
-  }
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 15%;
+  padding: 0.9rem 3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: var(--main-color);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.section-dark-link a {
+  color: #010103;
+}
+
+.section-dark-link:hover {
+  letter-spacing: 0.1rem;
+  background: hsla(43, 74%, 49%, 0.807);
+}
 
 /* PARRALAX START */
 .img-one,
@@ -669,7 +669,7 @@ text-align: center;
   margin-right: 4rem;
   margin-bottom: 2rem;
   line-height: 1.8;
-  border:1px solid #13131a;
+  border: 1px solid #13131a;
   margin-top: 2rem;
   padding: 3rem 3rem;
 }
@@ -677,9 +677,8 @@ text-align: center;
 .about-box .about-box-grid .second .content-box .content-box-box:hover {
   cursor: pointer;
   background: #13131a;
-  border:1px solid #ccc;
+  border: 1px solid #ccc;
 }
-
 
 .about-box .about-box-grid .second .content-box .content-box-box span {
   border-top: 3px solid #13131a;
@@ -699,10 +698,7 @@ text-align: center;
   color: #daa520;
 }
 
-
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-
-
 
 .about .row {
   padding-top: 0;
@@ -812,7 +808,6 @@ text-align: center;
   padding-bottom: 1rem;
 }
 
-
 .swiper {
   width: 100%;
   height: 350px;
@@ -840,7 +835,7 @@ text-align: center;
   width: 130%;
   height: 100%;
   -webkit-background-size: cover;
-  background-image: url('/Images/here.jpg'); 
+  background-image: url("/Images/here.jpg");
   filter: blur(3px);
   background-size: cover;
   background-position: center;
@@ -894,8 +889,8 @@ text-align: center;
 
 .menu .box-container .box a:hover {
   color: #daa520;
-  border-bottom:1px solid #daa520;
-  border-top:1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+  border-top: 1px solid #daa520;
 }
 
 .menu .box-container .box a:active {
@@ -908,7 +903,7 @@ text-align: center;
 }
 
 .menu .box-container .box:hover > * {
-  color: #ccc ;
+  color: #ccc;
 }
 
 .products .heading {
@@ -1107,7 +1102,7 @@ text-align: center;
   color: #ccc;
   text-transform: none;
   background: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1137,22 +1132,21 @@ text-align: center;
 }
 
 .contact .row form .inputBox input:focus {
-    background: #13131a;
-} 
+  background: #13131a;
+}
 
 .contact .row form .inputBox textarea:focus {
   background: #13131a;
 }
 
-::placeholder{
+::placeholder {
   font-size: 1.6rem;
 }
 
 .contact .row form .inputBox textarea::placeholder {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding-left: 6px;
 }
-
 
 .blogs .heading {
   margin-top: 9rem;
@@ -1366,7 +1360,7 @@ text-align: center;
   text-align: center;
 }
 
-.treasury .content h2{
+.treasury .content h2 {
   margin-top: 4rem;
 }
 
@@ -1436,7 +1430,7 @@ text-align: center;
   text-align: center;
 }
 
-.brp .content h2{
+.brp .content h2 {
   margin-top: 4rem;
 }
 
@@ -1506,7 +1500,7 @@ text-align: center;
   text-align: left;
 }
 
-.Deals .content h2{
+.Deals .content h2 {
   margin-top: 4rem;
 }
 
@@ -1576,7 +1570,7 @@ text-align: center;
   text-align: left;
 }
 
-.BizMgt .content h2{
+.BizMgt .content h2 {
   margin-top: 4rem;
 }
 
@@ -1778,7 +1772,6 @@ text-align: center;
     display: block;
   }
 
-
   .btn-2-width {
     width: 110%;
   }
@@ -1799,17 +1792,19 @@ text-align: center;
   .section-light .section-light-content p {
     text-align: justify;
   }
-  
+
   .section-dark-link {
     width: 30%;
   }
 
-  .img-one, .img-two, .img-three {
+  .img-one,
+  .img-two,
+  .img-three {
     height: 500px;
   }
 
   .img-three .img-three-text h3 {
-      font-size: 4rem;
+    font-size: 4rem;
   }
 
   .contact .row iframe {
@@ -1838,7 +1833,7 @@ text-align: center;
   .Deals h2 {
     margin-top: 3rem;
   }
-  
+
   .Deals img {
     width: 100%;
     float: none;
@@ -1882,7 +1877,6 @@ text-align: center;
     display: inline-block;
   }
 
-
   .header .navbar {
     position: absolute;
     top: 100%;
@@ -1910,7 +1904,7 @@ text-align: center;
   }
 
   .home {
-    background-image: url('/Images/here.jpg');
+    background-image: url("/Images/here.jpg");
     background-size: cover;
     justify-content: center;
     text-align: center;
@@ -1972,7 +1966,6 @@ text-align: center;
 }
 
 @media (max-width: 568px) {
-
   /* .header .icons .fa-envelope {
     display: none;
   } */
@@ -1992,25 +1985,24 @@ text-align: center;
     font-size: 2rem;
   }
 
-
   .img-one-text {
     font-size: 2rem;
   }
 
- .img-one-boxes {
-  display: block;
- }
+  .img-one-boxes {
+    display: block;
+  }
 
- .img-one-boxes .box {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
- }
+  .img-one-boxes .box {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
- .section-dark-link {
-  width: 50%;
-  margin-top: 2rem;
- }
+  .section-dark-link {
+    width: 50%;
+    margin-top: 2rem;
+  }
 
   .img-one .img-one-text {
     margin-bottom: 10rem;
@@ -2036,7 +2028,7 @@ text-align: center;
   .about .row .about-more p {
     width: 100%;
     padding-right: 2rem;
-    padding-left:2rem;
+    padding-left: 2rem;
     text-align: center;
   }
 
@@ -2113,26 +2105,24 @@ text-align: center;
   }
 
   .about .row .image img {
-   width: 100%;
+    width: 100%;
   }
 
-.about-box .about-box-grid .second .content-box .content-box-box {
+  .about-box .about-box-grid .second .content-box .content-box-box {
     width: 100vw;
     height: 50vh;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-.about .about-box .about-box-grid p {
-  width: 100%;
-}
+  .about .about-box .about-box-grid p {
+    width: 100%;
+  }
 
-.about .about-box .about-box-grid .second p {
-  width: 100%;
+  .about .about-box .about-box-grid .second p {
+    width: 100%;
+  }
 }
-
-}
-
 
 @media (max-width: 450px) {
   html {
